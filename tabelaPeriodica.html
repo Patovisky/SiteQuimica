@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabela Periódica</title>
     <link rel="stylesheet" href="./style2.css">
 </head>
+
 <body>
     <header>
         <div class="all-menu">
@@ -15,7 +17,6 @@
                     <li><a href="./organica.html"><button class="btn-padrao">Orgânica</button></a></li>
                     <li><a href="./inorganica.html"><button class="btn-padrao">Inorgânica</button></a></li>
                 </ul>
-
             </nav>
             <div class="dropdown">
                 <button class="dropbtn">☰</button>
@@ -26,30 +27,253 @@
                 </div>
             </div>
         </div>
-
     </header>
+
     <main>
         <table>
+            <colgroup>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th colspan="18">Tabela periódica</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
             <tr>
-                <td class="hidrogenio"><span class="n-atomico">1</span><br><p class="sigla">H</p><p class="nome">hidrogênio</p></td>
+                <!-- Coluna 1 -->
+                <td class="hidrogenio">
+                    <span class="n-atomico">1</span><br>
+                    <p class="sigla">H</p>
+                    <p class="nome">Hidrogênio</p>
+                </td>
+
+                <!-- Colunas de 2 a 17 (Vão central invisível) -->
+                <td colspan="16" class="vazio"></td>
+
+                <!-- Coluna 18 -->
+                <td class="gases-nobres">
+                    <span class="n-atomico">2</span><br>
+                    <p class="sigla">He</p>
+                    <p class="nome">Hélio</p>
+                </td>
             </tr>
-            
+            <tr>
+                <!-- Coluna 1 da linha 2 -->
+                <td class="metais-alcalinos">
+                    <span class="n-atomico">3</span><br>
+                    <p class="sigla">Li</p>
+                    <p class="nome">Lítio</p>
+                </td>
+                <td class="metais-alcalinoterrosos">
+                    <span class="n-atomico">4</span><br>
+                    <p class="sigla">Be</p>
+                    <p class="nome">Berílio</p>
+                </td>
+                <td colspan="10" class="vazio"></td>
+                <td class="semimetais">
+                    <span class="n-atomico">5</span><br>
+                    <p class="sigla">B</p>
+                    <p class="nome">Boro</p>
+                </td>
+                <td class="ametais">
+                    <span class="n-atomico">6</span><br>
+                    <p class="sigla">C</p>
+                    <p class="nome">Carbono</p>
+                </td>
+                <td class="ametais">
+                    <span class="n-atomico">7</span><br>
+                    <p class="sigla">N</p>
+                    <p class="nome">Nitrogênio</p>
+                </td>
+                <td class="ametais">
+                    <span class="n-atomico">8</span><br>
+                    <p class="sigla">O</p>
+                    <p class="nome">Oxigênio</p>
+                </td>
+                <td class="ametais">
+                    <span class="n-atomico">9</span><br>
+                    <p class="sigla">F</p>
+                    <p class="nome">Flúor</p>
+                </td>
+                <td class="gases-nobres">
+                    <span class="n-atomico">10</span><br>
+                    <p class="sigla">Ne</p>
+                    <p class="nome">Neônio</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="metais-alcalinos">
+                    <span class="n-atomico">11</span><br>
+                    <p class="sigla">Na</p>
+                    <p class="nome">Sódio</p>
+                </td>
+                <td class="metais-alcalinoterrosos">
+                    <span class="n-atomico">12</span><br>
+                    <p class="sigla">Mg</p>
+                    <p class="nome">Magnésio</p>
+                </td>
+                <td colspan="10" class="vazio"></td>
+                <td class="bloco-p">
+                    <span class="n-atomico">13</span><br>
+                    <p class="sigla">Al</p>
+                    <p class="nome">Alumínio</p>
+                </td>
+                <td class="semimetais">
+                    <span class="n-atomico">14</span><br>
+                    <p class="sigla">Si</p>
+                    <p class="nome">Silício</p>
+                </td>
+                <td class="ametais">
+                    <span class="n-atomico">15</span><br>
+                    <p class="sigla">P</p>
+                    <p class="nome">Fósforo</p>
+                </td>
+                <td class="ametais">
+                    <span class="n-atomico">16</span><br>
+                    <p class="sigla">S</p>
+                    <p class="nome">Enxofre</p>
+                </td>
+                <td class="ametais">
+                    <span class="n-atomico">17</span><br>
+                    <p class="sigla">Cl</p>
+                    <p class="nome">Cloro</p>
+                </td>
+                <td class="gases-nobres">
+                    <span class="n-atomico">18</span><br>
+                    <p class="sigla">Ar</p>
+                    <p class="nome">Argônio</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="metais-alcalinos">
+                    <span class="n-atomico">19</span><br>
+                    <p class="sigla">K</p>
+                    <p class="nome">Potássio</p>
+                </td>
+                <td class="metais-alcalinoterrosos">
+                    <span class="n-atomico">20</span><br>
+                    <p class="sigla">Ca</p>
+                    <p class="nome">Cálcio</p>
+                </td>
+
+                <td class="metal-transicao">
+                    <span class="n-atomico">21</span><br>
+                    <p class="sigla">Sc</p>
+                    <p class="nome">Escândio</p>
+                </td>
+                <td class="metal-transicao">
+                    <span class="n-atomico">22</span><br>
+                    <p class="sigla">Ti</p>
+                    <p class="nome">Titânio</p>
+                </td>
+                <td class="metal-transicao">
+                    <span class="n-atomico">23</span><br>
+                    <p class="sigla">V</p>
+                    <p class="nome">Vanádio</p>
+                </td>
+                <td class="metal-transicao">
+                    <span class="n-atomico">24</span><br>
+                    <p class="sigla">Cr</p>
+                    <p class="nome">Cromo</p>
+                </td>
+                <td class="metal-transicao">
+                    <span class="n-atomico">25</span><br>
+                    <p class="sigla">Mn</p>
+                    <p class="nome">Manganês</p>
+                </td>
+                <td class="metal-transicao">
+                    <span class="n-atomico">26</span><br>
+                    <p class="sigla">Fe</p>
+                    <p class="nome">Ferro</p>
+                </td>
+                <td class="metal-transicao">
+                    <span class="n-atomico">27</span><br>
+                    <p class="sigla">Co</p>
+                    <p class="nome">Cobalto</p>
+                </td>
+                <td class="metal-transicao">
+                    <span class="n-atomico">28</span><br>
+                    <p class="sigla">Ni</p>
+                    <p class="nome">Níquel</p>
+                </td>
+
+                <td class="metal-transicao">
+                    <span class="n-atomico">29</span><br>
+                    <p class="sigla">Cu</p>
+                    <p class="nome">Cobre</p>
+                </td>
+                <td class="metal-transicao">
+                    <span class="n-atomico">30</span><br>
+                    <p class="sigla">Zn</p>
+                    <p class="nome">Zinco</p>
+                </td>
+                <td class="bloco-p">
+                    <span class="n-atomico">31</span><br>
+                    <p class="sigla">Ga</p>
+                    <p class="nome">Gálio</p>
+                </td>
+                <td class="semimetais">
+                    <span class="n-atomico">32</span><br>
+                    <p class="sigla">Ge</p>
+                    <p class="nome">germânio</p>
+                </td>
+                <td class="semimetais">
+                    <span class="n-atomico">33</span><br>
+                    <p class="sigla">As</p>
+                    <p class="nome">Arsênio</p>
+                </td>
+                <td class="ametais">
+                    <span class="n-atomico">34</span><br>
+                    <p class="sigla">Se</p>
+                    <p class="nome">Selênio</p>
+                </td>
+                <td class="ametais">
+                    <span class="n-atomico">35</span><br>
+                    <p class="sigla">Br</p>
+                    <p class="nome">Bromo</p>
+                </td>
+                <td class="gases-nobres">
+                    <span class="n-atomico">36</span><br>
+                    <p class="sigla">Kr</p>
+                    <p class="nome">Criptônio</p>
+                </td>
+            </tr>
+            </tbody>
         </table>
     </main>
+
     <footer>
-    <div class="footer-container">
-
-        <div class="footer-esquerda">
-            <h2>Química Fácil</h2>
-            <p>Aprenda química de forma simples e organizada.</p>
+        <div class="footer-container">
+            <div class="footer-esquerda">
+                <h2>Química Fácil</h2>
+                <p>Aprenda química de forma simples e organizada.</p>
+            </div>
+            <div class="footer-info">
+                <h3>Projeto</h3>
+                <p>Desenvolvido por Seu Nome</p>
+                <p>© 2026 Todos os direitos reservados.</p>
+            </div>
         </div>
-        <div class="footer-info">
-            <h3>Projeto</h3>
-            <p>Desenvolvido por Seu Nome</p>
-            <p>© 2026 Todos os direitos reservados.</p>
-        </div>
-
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>
