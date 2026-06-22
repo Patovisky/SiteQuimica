@@ -1,3 +1,6 @@
+html{
+    scrollbar-color: antiquewhite rgb(23, 36, 39);
+}
 * {
     margin: 0;
     padding: 0;
@@ -191,7 +194,6 @@ main {
     box-shadow: 0 0 10px blanchedalmond;
     overflow-x: auto;
 }
-
 main h3 {
     font-size: 45px;
     text-align: center;
@@ -235,10 +237,10 @@ main table td {
 }
 
 .vazio {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    padding: 0 !important;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
 }
 
 .hidrogenio {
@@ -320,7 +322,37 @@ main table td {
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(99, 82, 158);
+    color: rgb(113, 95, 180);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lantanideos {
+    cursor: pointer;
+    background-color: rgb(254, 255, 222);
+    border-radius: 10px;
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(218, 165, 106);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.actinideos {
+    cursor: pointer;
+    background-color: rgb(183, 194, 255);
+    border-radius: 10px;
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(121, 84, 207);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.desconhecido {
+    cursor: pointer;
+    background-color: rgb(235, 236, 241);
+    border-radius: 10px;
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(155, 151, 163);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -345,8 +377,17 @@ main table td {
 .bloco-p .sigla { color: rgb(55, 129, 95); }
 .bloco-p .nome { color:rgb(82, 158, 101);}
 
-.metal-transicao .sigla { color: rgb(51, 48, 114); }
-.metal-transicao .nome { color:rgb(99, 82, 158);}
+.metal-transicao .sigla { color: rgb(73, 68, 177); }
+.metal-transicao .nome { color:rgb(113, 95, 180);}
+
+.lantanideos .sigla { color: rgb(201, 125, 81); }
+.lantanideos .nome { color:rgb(218, 165, 106);}
+
+.actinideos .sigla { color: rgb(85, 37, 197); }
+.actinideos .nome { color:rgb(121, 84, 207);}
+
+.desconhecido .sigla { color: rgb(125, 114, 141); }
+.desconhecido .nome { color:rgb(155, 151, 163);}
 
 .sigla {
     font-size: 38px;
