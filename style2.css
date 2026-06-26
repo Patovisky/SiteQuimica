@@ -1,6 +1,7 @@
-html{
-    scrollbar-color: antiquewhite rgb(23, 36, 39);
+html {
+    scrollbar-color: rgb(80, 169, 154) rgb(23, 36, 39);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -91,7 +92,7 @@ li a {
     left: 0;
     min-width: 200px;
     background: #f1f1f1;
-    box-shadow: 0 8px 16px rgba(0,0,0,.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .2);
     z-index: 100;
 }
 
@@ -111,11 +112,11 @@ li a {
 }
 
 main {
-    background: antiquewhite;
+    background: rgb(37, 53, 54);
     margin: 40px;
     padding: 30px;
     border-radius: 20px;
-    box-shadow: 0 0 10px blanchedalmond;
+
 }
 
 main h3 {
@@ -186,14 +187,14 @@ footer {
 .footer-links a:hover {
     color: rgb(8, 255, 201);
 }
+
 main {
-    background: antiquewhite;
     margin: 40px;
     padding: 30px;
     border-radius: 20px;
-    box-shadow: 0 0 10px blanchedalmond;
     overflow-x: auto;
 }
+
 main h3 {
     font-size: 45px;
     text-align: center;
@@ -215,7 +216,7 @@ main table {
     table-layout: fixed;
     width: 100%;
     border-collapse: separate;
-    border-spacing: 5px; 
+    border-spacing: 5px;
 }
 
 main table col {
@@ -246,7 +247,6 @@ main table td {
 .hidrogenio {
     cursor: pointer;
     background-color: rgb(219, 243, 255);
-    border-radius: 10px;
     padding: 15px;
     word-wrap: break-word;
     position: relative;
@@ -257,7 +257,6 @@ main table td {
 .gases-nobres {
     cursor: pointer;
     background-color: rgb(243, 206, 235);
-    border-radius: 10px;
     padding: 15px;
     word-wrap: break-word;
     position: relative;
@@ -268,87 +267,86 @@ main table td {
 .metais-alcalinos {
     cursor: pointer;
     background-color: rgb(176, 241, 211);
-    border-radius: 10px;
     padding: 15px;
     word-wrap: break-word;
     position: relative;
     color: rgb(19, 172, 192);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .metais-alcalinoterrosos {
     cursor: pointer;
     background-color: rgb(255, 144, 153);
-    border-radius: 10px;
     padding: 15px;
     word-wrap: break-word;
     position: relative;
     color: rgb(158, 10, 121);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .semimetais {
     cursor: pointer;
     background-color: rgb(245, 208, 153);
-    border-radius: 10px;
     padding: 15px;
     word-wrap: break-word;
     position: relative;
     color: rgb(199, 102, 37);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .ametais {
     cursor: pointer;
     background-color: rgb(163, 215, 245);
-    border-radius: 10px;
     padding: 15px;
     word-wrap: break-word;
     position: relative;
     color: rgb(75, 89, 212);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .bloco-p {
     cursor: pointer;
     background-color: rgb(208, 247, 145);
-    border-radius: 10px;
     padding: 15px;
     word-wrap: break-word;
     position: relative;
     color: rgb(82, 158, 101);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .metal-transicao {
     cursor: pointer;
     background-color: rgb(215, 186, 248);
-    border-radius: 10px;
     padding: 15px;
     word-wrap: break-word;
     position: relative;
     color: rgb(113, 95, 180);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .lantanideos {
     cursor: pointer;
     background-color: rgb(254, 255, 222);
-    border-radius: 10px;
     padding: 15px;
     word-wrap: break-word;
     position: relative;
     color: rgb(218, 165, 106);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .actinideos {
     cursor: pointer;
     background-color: rgb(183, 194, 255);
-    border-radius: 10px;
     padding: 15px;
     word-wrap: break-word;
     position: relative;
     color: rgb(121, 84, 207);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .desconhecido {
     cursor: pointer;
     background-color: rgb(235, 236, 241);
-    border-radius: 10px;
     padding: 15px;
     word-wrap: break-word;
     position: relative;
@@ -356,38 +354,93 @@ main table td {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.hidrogenio .sigla { color: rgb(113, 142, 235); }
-.hidrogenio .nome { color: rgb(133, 160, 247); }
+.hidrogenio .sigla {
+    color: rgb(113, 142, 235);
+}
 
-.gases-nobres .sigla { color: rgb(160, 50, 145); }
-.gases-nobres .nome { color: rgb(189, 79, 174); }
+.hidrogenio .nome {
+    color: rgb(133, 160, 247);
+}
 
-.metais-alcalinos .sigla { color: rgb(13, 137, 153); }
-.metais-alcalinos .nome { color: rgb(19, 172, 192); }
+.gases-nobres .sigla {
+    color: rgb(160, 50, 145);
+}
 
-.metais-alcalinoterrosos .sigla { color: rgb(138, 5, 105); }
-.metais-alcalinoterrosos .nome { color:rgb(158, 10, 121);}
+.gases-nobres .nome {
+    color: rgb(189, 79, 174);
+}
 
-.semimetais .sigla { color: rgb(148, 42, 9); }
-.semimetais .nome { color:rgb(199, 102, 37);}
+.metais-alcalinos .sigla {
+    color: rgb(13, 137, 153);
+}
 
-.ametais .sigla { color: rgb(54, 69, 199); }
-.ametais .nome { color:rgb(75, 89, 212);}
+.metais-alcalinos .nome {
+    color: rgb(19, 172, 192);
+}
 
-.bloco-p .sigla { color: rgb(55, 129, 95); }
-.bloco-p .nome { color:rgb(82, 158, 101);}
+.metais-alcalinoterrosos .sigla {
+    color: rgb(138, 5, 105);
+}
 
-.metal-transicao .sigla { color: rgb(73, 68, 177); }
-.metal-transicao .nome { color:rgb(113, 95, 180);}
+.metais-alcalinoterrosos .nome {
+    color: rgb(158, 10, 121);
+}
 
-.lantanideos .sigla { color: rgb(201, 125, 81); }
-.lantanideos .nome { color:rgb(218, 165, 106);}
+.semimetais .sigla {
+    color: rgb(148, 42, 9);
+}
 
-.actinideos .sigla { color: rgb(85, 37, 197); }
-.actinideos .nome { color:rgb(121, 84, 207);}
+.semimetais .nome {
+    color: rgb(199, 102, 37);
+}
 
-.desconhecido .sigla { color: rgb(125, 114, 141); }
-.desconhecido .nome { color:rgb(155, 151, 163);}
+.ametais .sigla {
+    color: rgb(54, 69, 199);
+}
+
+.ametais .nome {
+    color: rgb(75, 89, 212);
+}
+
+.bloco-p .sigla {
+    color: rgb(55, 129, 95);
+}
+
+.bloco-p .nome {
+    color: rgb(82, 158, 101);
+}
+
+.metal-transicao .sigla {
+    color: rgb(73, 68, 177);
+}
+
+.metal-transicao .nome {
+    color: rgb(113, 95, 180);
+}
+
+.lantanideos .sigla {
+    color: rgb(201, 125, 81);
+}
+
+.lantanideos .nome {
+    color: rgb(218, 165, 106);
+}
+
+.actinideos .sigla {
+    color: rgb(85, 37, 197);
+}
+
+.actinideos .nome {
+    color: rgb(121, 84, 207);
+}
+
+.desconhecido .sigla {
+    color: rgb(125, 114, 141);
+}
+
+.desconhecido .nome {
+    color: rgb(155, 151, 163);
+}
 
 .sigla {
     font-size: 38px;
@@ -400,15 +453,92 @@ main table td {
     margin: 0;
 }
 
+.tabelah1 {
+    word-wrap: break-word;
+    color: aliceblue;
+    margin: 25px;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .n-atomico {
     position: absolute;
-    top: 8px;      
-    left: 10px;    
+    top: 8px;
+    left: 10px;
     font-weight: bold;
     font-size: 12px;
     font-weight: bold;
 }
 
+.familias {
+    background-color: rgb(37, 53, 54);
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 30px;
+    cursor: pointer;
+    color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.espaco td {
+    height: 60px;
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+.p1 {
+    border-left: 30px solid rgb(176, 241, 211);
+}
+
+.p2 {
+    border-left: 30px solid rgb(255, 144, 153);
+}
+
+.p3 {
+    border-left: 30px solid rgb(215, 186, 248);
+}
+
+.p4 {
+    border-left: 30px solid rgb(208, 247, 145);
+}
+
+.p5 {
+    border-left: 30px solid rgb(245, 208, 153);
+}
+
+.p6 {
+    border-left: 30px solid rgb(163, 215, 245);
+}
+
+.p7 {
+    border-left: 30px solid rgb(243, 206, 235);
+}
+
+.p8 {
+    border-left: 30px solid rgb(254, 255, 222);
+}
+
+.p9 {
+    border-left: 30px solid rgb(183, 194, 255);
+}
+
+.p10 {
+    border-left: 30px solid rgb(235, 236, 241);
+}
+
+.p11 {
+    border-left: 30px solid rgb(198, 230, 246);
+}
 
 @media (max-width: 768px) {
     .all-menu {
