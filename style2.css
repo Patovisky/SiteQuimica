@@ -481,8 +481,7 @@ main table td {
     color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    padding: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -538,6 +537,14 @@ li {
 
 .p11 {
     border-left: 30px solid rgb(198, 230, 246);
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.col1 li{
+    margin-top: 5px;
 }
 
 @media (max-width: 768px) {
